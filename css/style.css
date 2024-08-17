@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* Golbal Css */
+
+
+ body{
+  font-family: "DM Sans", sans-serif;
+ }
+
+p{
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 25px;
+  color: #999999;
+}
+
+h5{
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+header{
+  width: 100%;
+  background: url(../img/banner.png) center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-section .cus-height{
+  height: 90vh;
+}
+
+
+.banner-section .banner-inner h1{
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-section .banner-inner p{
+  width: 82%;
+  color: white;
+}
+
+
+.navbar .nav-item .nav-link{
+  color: white;
+  display: inline-block;
+}
+
+.bnts a{
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.bnts .btn-primary{
+  background: #008ed6;
+  border: 1px solid #008ed6;
+  margin-right: 8px;
+  transition: 0.7s;
+}
+
+.bnts .btn-primary:hover{
+  background: transparent;
+  border: 1px solid white;
+  transition: 0.7s;
+}
+
+
+.bnts .btn-info{
+  background: transparent;
+  border: 1px solid white;
+  transition: 0.7s;
+}
+
+.bnts .btn-info:hover{
+  background: #008ed6;
+  border: 1px solid #008ed6;
+  color: white;
+  transition: 0.7s;
+}
+
+.Feature-section{
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.title{
+  margin-bottom: 50px;
+}
+
+.underline{
+  width: 100px;
+  height: 3px;
+  background: #008ed6;
+  margin: 30px auto 0px;
+  margin-bottom: 50px;
+}
+
+.icon i{
+  color: #008ed6;
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb( 33, 37, 41);
+  border-radius: 50px;
+  line-height: 80px;
+  margin-bottom: 28px;
+}
+
+.icon h6{
+font-size: 22px;
+}
+
+.Feature-section.icon p{
+  padding: 0px 20px;
+}
